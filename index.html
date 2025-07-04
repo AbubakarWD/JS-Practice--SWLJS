@@ -9,53 +9,7 @@
 
 <body>
     <script>
-        var animals = ["cat", " dog", " mouse"];
-        document.write(animals);
-        document.write("<br>");
-
-        animals.shift()                        // the (shift) keyword/function removes the first element of the array
-        document.write(animals);
-        document.write("<br>");
-
-        animals.unshift("lion", "snake")        // the (unshift) keyword/function adds element to the beginning of an array
-        document.write(animals);
-        document.write("<br>");
-
-        // Use the splice method to insert one or more elements anywhere in an array, 
-        // while optionally removing one or more elements that come after it. 
-
-        var fruits = ["apple", "banana", "grapes", "mango", "peach"];
-        document.write(fruits);
-        document.write("<br>");
-
-        //  The first digit inside the parenthesis is the index of the position,
-        //  where you want to start adding if you're adding and deleting if you're deleting.
-
-        // The second digit is the number of existing elements to remove, 
-        // starting with the first element that comes after the element(s) that you're splicing in.
-
-
-        fruits.splice(2, 2, "Pomegrenate", "Strawberry");
-        document.write(fruits);
-        document.write("<br>");
-
-        // The following code adds 2 elements without removing any elements
-        fruits.splice(3, 0, "potato", "tomato");
-        document.write(fruits);
-        document.write("<br>");
-
-        //  with the following code, we can  remove elements without adding any.
-        fruits.splice(2, 3);
-        document.write(fruits);
-        document.write("<br>");
-
-        var pets = ["dog", "cat", "fly", "bug", "ox"]; 
-        document.write(pets);
-        document.write("<br>");
-
-        var nopets= pets.slice(1,4);
-        document.write(nopets);
-        document.write("<br>");
+        
     </script>
 </body>
 
